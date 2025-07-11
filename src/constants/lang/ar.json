@@ -123,7 +123,60 @@
   "skills": {
     "title": "مهارات تطوير الويب",
     "desc": "أنا متخصص في تطوير الويب ولدي خبرة عملية باستخدام مجموعة متنوعة من لغات البرمجة وأطر العمل وأدوات التطوير الخاصة بالويب. فيما يلي قائمة بالمهارات الأساسية التي طورتها من خلال المشاريع العملية والتعلم المستمر.",
-    "list": "بي إتش بي، لارافيل، نود جي إس، جو لانغ، ماي إس كيو إل، بوستغريس كيو إل، مونغو دي بي، رياكت، إكسبريس، لايفواير، تيلويند، دوكر، جيت"
+    "list": [
+      {
+        "label": "بي إتش بي",
+        "icon": "https://skillicons.dev/icons?i=php"
+      },
+      {
+        "label": "لارافيل",
+        "icon": "https://skillicons.dev/icons?i=laravel"
+      },
+      {
+        "label": "نود جي إس",
+        "icon": "https://skillicons.dev/icons?i=nodejs"
+      },
+      {
+        "label": "جو لانغ",
+        "icon": "https://skillicons.dev/icons?i=go"
+      },
+      {
+        "label": "ماي إس كيو إل",
+        "icon": "https://skillicons.dev/icons?i=mysql"
+      },
+      {
+        "label": "بوستغريس كيو إل",
+        "icon": "https://skillicons.dev/icons?i=postgres"
+      },
+      {
+        "label": "مونغو دي بي",
+        "icon": "https://skillicons.dev/icons?i=mongodb"
+      },
+      {
+        "label": "ريأكت",
+        "icon": "https://skillicons.dev/icons?i=react"
+      },
+      {
+        "label": "إكسبريس",
+        "icon": "https://skillicons.dev/icons?i=express"
+      },
+      {
+        "label": "لايفواير",
+        "icon": "https://skillicons.dev/icons?i=laravel"
+      },
+      {
+        "label": "تيلويند",
+        "icon": "https://skillicons.dev/icons?i=tailwind"
+      },
+      {
+        "label": "دوكر",
+        "icon": "https://skillicons.dev/icons?i=docker"
+      },
+      {
+        "label": "جيت",
+        "icon": "https://skillicons.dev/icons?i=git"
+      }
+    ]
   },
   "experties": [
     {

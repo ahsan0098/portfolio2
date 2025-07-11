@@ -13,7 +13,8 @@ import Footer from "@/components/custome/Footer";
 const Home = () => {
 
     const { data } = useLang();
-
+    console.log(data);
+    if (!data) return <div>Loading language data...</div>;
     return (
         <>
             <Header {...data.general} links={data.links} />

@@ -2,29 +2,10 @@
 
 import { Card } from "../ui/card";
 
-
-const skills = [
-    {
-        label: "PHP",
-        icon: "https://skillicons.dev/icons?i=php",
-    },
-    {
-        label: "Laravel",
-        icon: "https://skillicons.dev/icons?i=laravel",
-    },
-    {
-        label: "Livewire",
-        icon: "https://skillicons.dev/icons?i=linkedin",
-    },
-    {
-        label: "Node",
-        icon: "https://skillicons.dev/icons?i=nodejs",
-    },
-];
-
 interface Skills{
     title: string,
-    desc: string
+    desc: string,
+    list: any
 }
 const Skills = (props:Skills) => {
    
@@ -38,7 +19,7 @@ const Skills = (props:Skills) => {
                 
             </div>
             <div className="grid grid-cols-3 md:grid-cols-5 lg:grid-cols-7 gap-5 mt-5">
-                {skills.map((skill, index) => (
+                {props.list.map((skill, index) => (
                     <div
                         key={index}
                         className="flex items-center gap-3 text-sm font-semibold border-2 rounded-lg p-2 shadow-shadow hover:translate-x-boxShadowX hover:translate-y-boxShadowY hover:shadow-none"
