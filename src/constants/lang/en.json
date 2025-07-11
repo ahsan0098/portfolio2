@@ -1,0 +1,169 @@
+{
+    "general": {
+        "name": "Ahsan Ali",
+        "bio": "As a professional Software Developer, I specialize in designing and crafting responsive, user-friendly websites where modern technologies meet creativity. I am passionate about solving problems and bringing innovative digital solutions to life.",
+        "resume": "Resume",
+        "contact": "Contact"
+    },
+    "socials": "Socials And Networks",
+    "links": [
+        {
+            "title": "Home",
+            "link": "/"
+        },
+        {
+            "title": "Projects",
+            "link": "/projects"
+        },
+        {
+            "title": "About",
+            "link": "/about"
+        },
+        {
+            "title": "Contact",
+            "link": "/contact"
+        }
+    ],
+    "aboutsection": {
+        "title": "Software Engineer & </br>Web Developer",
+        "desc": "I am originally from Pakistan and currently residing in Al Khafji, Dammam, in the Eastern Province of Saudi Arabia. I hold a transferable Iqama and am actively seeking job opportunities or freelance projects. I am open to both full-time employment and contract-based roles. If you are looking for a reliable and dedicated professional, I would be glad to contribute my skills to your team or project."
+    },
+    "education": {
+        "title": "Education & Qualifications",
+        "desc": "A comprehensive overview of my academic background, including all qualifications, certifications, and achievements throughout my educational journey.",
+        "deg": "Degree",
+        "prog": "Program",
+        "inst": "Institute",
+        "dur": "Dates Attend",
+        "mrk": "Score",
+        "degrees": {
+            "bachelors": {
+                "title": "Bachelors",
+                "desc": "I completed a four-year undergraduate program specializing in software engineering. This degree equipped me with strong programming, problem-solving, and software design skills, preparing me for full-stack development and backend roles.",
+                "program": "BS Software Engineering",
+                "institute": "From University of Haripur, Pakistan",
+                "period": "From 2017-2021",
+                "marks": "CGPA : 3.63"
+            },
+            "intermediate": {
+                "title": "Intermediate",
+                "desc": "I studied foundational computer science and mathematics in my intermediate education. This phase strengthened my logical reasoning and introduced me to programming and information technology concepts.",
+                "program": "Higher Secondary School Certificate",
+                "institute": "From Scholars Science College Wah Cantt,Pakistan",
+                "period": "From 2015-2017",
+                "marks": "Result : 71%"
+            },
+            "metric": {
+                "title": "Matriculation",
+                "desc": "I completed my secondary education with a focus on science, laying the groundwork for my technical journey. It included core subjects like physics, chemistry, and mathematics.",
+                "program": "Secondary School Certificate",
+                "institute": "From Govt. High School Taxila,Pakistan",
+                "period": "From 2013-2015",
+                "marks": "Result : 72%"
+            }
+        }
+    },
+    "experience": {
+        "title": "Professional Experience",
+        "journey": "Career Journey",
+        "desc": "An overview of my journey in the software development industry, highlighting the positions I’ve held, the companies I’ve worked with, and the growth I've achieved along the way.",
+        "list": {
+            "sfdev": {
+                "title": "PHP Laravel Developer",
+                "company": "Software Flare, Pakistan",
+                "period": "From Dec 2022 – Present",
+                "desc": "I began my journey at Software Flare as an intern and was soon promoted to a full-time role as part of the senior PHP development team. Working on real-world projects, collaborating with experienced developers.",
+                "link": "https://www.softwareflare.com/"
+            },
+            "sfintern": {
+                "title": "PHP Laravel Internship",
+                "company": "Software Flare, Pakistan",
+                "period": "From Sept 2022 – Dec 2022",
+                "desc": "During this internship, I deepened my understanding of PHP and Laravel by working on practical tasks and contributing to ongoing projects. My performance led to a promotion into the company’s core development team.",
+                "link": "https://www.softwareflare.com/"
+            },
+            "ntintern": {
+                "title": "PHP Laravel Internship",
+                "company": "NestTech Ventures, Pakistan",
+                "period": "From Jul 2022 – Sept 2022",
+                "desc": "This was my first step into the software industry after graduation and a period of self-learning. At NestTech, I gained hands-on experience with Laravel and industry best practices, laying the foundation for my future roles.",
+                "link": "https://www.rozee.pk/company/nest-tech/about"
+            }
+        }
+    },
+    "skills": {
+        "title": "Wed Development Skill",
+        "desc": "I specialize in web development and have hands-on experience with a range of web programming languages, frameworks, and tools. Below is a list of the core skills I’ve developed through practical projects and continuous learning.",
+        "list": "php,laravel,nodejs,golang,mysql,postgresql,mongodb,react,express,livewire,tailwind,docker,git,"
+    },
+    "projects": {
+        "title": "Project Portfolio",
+        "desc": "Here are some of the exciting and impactful projects I’ve worked on, showcasing my skills, creativity, and problem-solving abilities in real-world scenarios.",
+        "to_all": "Checkout all my projects",
+        "nextbtn": "View Details",
+        "list": {
+            "rentcar": {
+                "title": "RentCar Australia",
+                "tec": "Laravel, Livewire, Bootstrap, MySQL",
+                "desc": "RentCar Australia is a modern car rental web application built with Laravel and Livewire. It offers customers a seamless experience to browse available vehicles, make bookings, and complete payments entirely online. The platform features an intuitive admin dashboard where administrators can manage bookings, monitor rental activity, update car listings, and maintain website content efficiently. The system is optimized for both desktop and mobile users, ensuring convenience and accessibility.",
+                "images": "au1,au2,au3,au4",
+                "live": ""
+            },
+            "realestate": {
+                "title": "Real Estate Consultancy Platform",
+                "tec": "Laravel, Livewire, Bootstrap, MySQL",
+                "desc": "A professional real estate consultancy platform designed for buying, selling, and renting properties. It allows users to browse property listings, view detailed property information, and connect directly with real estate consultants. The admin panel enables agents to manage listings, client inquiries, and publish featured properties. The system enhances client experience with dynamic search filters and location-based suggestions, offering an end-to-end property discovery and consultancy solution.",
+                "images": "re1,re2,re3,re4",
+                "live": ""
+            },
+            "glaxydollars": {
+                "title": "Glaxy Dollars - Online Earning Platform",
+                "tec": "Laravel, Livewire, Bootstrap, MySQL",
+                "desc": "Glaxy Dollars is a trusted online earning platform that empowers users to earn real income by completing simple daily activities. Registered members can make money by watching promotional videos, playing engaging games, and referring new users to the platform. The system includes a secure login, referral tracking, video monetization, and game reward mechanisms. Admins have full control to manage earnings, users, game keys, and content from a robust backend panel. The platform is designed to scale and supports transparent earnings, making online income accessible for everyone.",
+                "images": "gd1,gd2,gd3,gd4",
+                "live": ""
+            }
+        }
+    },
+    "experties": [
+        {
+            "tag": "IT Support Specialist"
+        },
+        {
+            "tag": "Computer Technician"
+        },
+        {
+            "tag": "System Administrator"
+        },
+        {
+            "tag": "Network Administrator"
+        },
+        {
+            "tag": "IT Help Desk"
+        },
+        {
+            "tag": "Technical Support "
+        },
+        {
+            "tag": "Data Entry Operator"
+        },
+        {
+            "tag": "Computer Operator"
+        },
+        {
+            "tag": "System Support"
+        },
+        {
+            "tag": "IT Coordinator"
+        },
+        {
+            "tag": "Hardware Technician"
+        },
+        {
+            "tag": "IT Infrastructure Specialist"
+        },
+        {
+            "tag": "Desktop Support Technician"
+        }
+    ]
+}

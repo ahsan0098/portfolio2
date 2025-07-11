@@ -1,15 +1,12 @@
 import React, { createContext, useContext, useEffect, useState } from "react";
-import en from "./../constants/lang/en";
-import ar from "./../constants/lang/ar";
 
 type LangType = "en" | "ar";
 
-type LangData = typeof en;
 
 interface LangContextType {
     lang: LangType;
     setLang: (lang: LangType) => void;
-    data: LangData;
+    data: any;
 }
 
 const LangContext = createContext<LangContextType | null>(null);
@@ -19,12 +16,21 @@ export const LangProvider = ({ children }: { children: React.ReactNode }) => {
         return (localStorage.getItem("lang") as LangType) || "en";
     });
 
-    const [data, setData] = useState<LangData>(lang === "ar" ? ar : en);
+    const [data, setData] = useState<any>({});
 
     useEffect(() => {
         localStorage.setItem("lang", lang);
-        setData(lang === "ar" ? ar : en);
 
+        const loadLang = async () => {
+            const response = await fetch(
+                `https://raw.githubusercontent.com/ahsan0098/portfolio2/main/src/constants/lang/en.ts`
+            );
+            const text = await response.text();
+            const module = eval(text); // Use cautiously or parse JSON if it’s JSON
+            setData(module);
+        };
+
+        loadLang();
         // Set direction and language on the HTML tag
         document.documentElement.lang = lang;
         document.documentElement.dir = lang === "ar" ? "rtl" : "ltr";

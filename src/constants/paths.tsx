@@ -1,5 +1,6 @@
 /*===========*****===========global urls===========*****===========*/
 export const APP_URL = "http://localhost:5173/";
+export const REPO_URL = "httpS://www.github.com/ahsan0098/portfolio2/";
 /*===========*****===========global urls===========*****===========*/
 
 
